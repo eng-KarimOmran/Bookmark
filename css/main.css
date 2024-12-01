@@ -1,0 +1,28 @@
+:root{
+    --colorOraing:#FEC260;
+}
+body{
+    background-color: #F7ECDE;
+}
+header h1{
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+header span,header i{
+    color: var(--colorOraing);
+    transition: 0.5s;
+}
+h1:hover span , h1:hover i{
+    color: black;
+    transition: 0.5s;
+}
+.favorite h2 span{
+    color: var(--colorOraing);
+}
+.BorderBottomT{
+    border-bottom: 1px solid #7c7c7c;
+}
